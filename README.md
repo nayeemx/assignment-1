@@ -47,7 +47,7 @@ console.log(personAge);  // Output: 30
 
 See? keyof helps me make sure I ask for a property name that really exists in the object type.
 
-3. Explain the difference between `any`, `unknown`, and `never`, types in TypeScript.
+## 3. Explain the difference between `any`, `unknown`, and `never`, types in TypeScript.
 
 ## These are special types:
 
@@ -59,7 +59,7 @@ never: This means something that will never happen. Like, a function that always
 
 So, any = no safety, unknown = safe, must check type, never = this will not happen.
 
-4. What is the use of enums in TypeScript? Provide an example of a numeric and string enum.
+## 4. What is the use of enums in TypeScript? Provide an example of a numeric and string enum.
 
 ## Enums are like lists of names that have a special meaning. They help make my code more readable and understandable. Instead of using numbers like 0, 1, 2 for something, I can give them names like Red, Green, Blue. It's much easier to read Color.Red than just the number 0.
 
@@ -98,7 +98,7 @@ console.log(userOneRole); // Output: ADMIN
 
 Enums make my code cleaner because I use names instead of magic numbers or strings.
 
-5. What is type inference in TypeScript? Why is it helpful?
+## 5. What is type inference in TypeScript? Why is it helpful?
 
 ## Type inference is a smart thing TypeScript does. It means TypeScript can guess or figure out the type of a variable or the return type of a function even if I don't write the type name myself.
 
@@ -117,7 +117,7 @@ Why is it helpful?
 Less writing: I don't need to write types everywhere, which makes the code shorter and faster to write.
 Still safe: Even if I don't write the type, TypeScript still checks if I use the variable correctly based on the type it figured out. So I get the safety without writing a lot.
 
-6. How does TypeScript help in improving code quality and project maintainability?
+## 6. How does TypeScript help in improving code quality and project maintainability?
 
 ## TypeScript is very helpful for writing better code and keeping a project easy to manage for a long time.
 Finds mistakes early: The biggest thing is that TypeScript checks my code before I run it (at "compile time"). It finds many type-related errors (like trying to add a number to a string by mistake) that would only happen when I run the program in normal JavaScript. Finding mistakes early saves a lot of time and headache.
@@ -127,7 +127,7 @@ Code is like documentation: When I put types on my functions and variables, othe
 
 This explains the code structure clearly without writing separate documents sometimes. It makes working together easier. So, fewer bugs, faster writing with editor help, and easier to understand code for everyone.
 
-7. Provide an example of using union and intersection types in TypeScript.
+## 7. Provide an example of using union and intersection types in TypeScript.
 
 
 ## Union Type: This means a variable or parameter can be one type OR another type. I use the pipe symbol (|).
